@@ -47,6 +47,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    OnePlus8WifiOverlay
+
+# API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # DeviceParts
