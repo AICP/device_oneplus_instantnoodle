@@ -24,7 +24,7 @@ $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 # Inherit some common AICP stuff.
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
-PRODUCT_NAME := aicp
+PRODUCT_NAME := aicp_instantnoodle
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
