@@ -21,10 +21,10 @@
     <integer name="BaseRefresh">60</integer>
     <integer name="PeakRefresh">90</integer>
 
-    <!-- Path to devices High Brigness Mode toggle file -->
+    <!-- Path to devices High Brigness Mode toggle file
     <string name="pathHBMModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm</string>
     <string name="hbmOFF">"0"</string>
-    <string name="hbmON">"5"</string>
+    <string name="hbmON">"5"</string> -->
 
     <!-- Path to devices SRGBMode toggle file
     <string name="pathSRGBModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/native_display_srgb_color_mode</string>-->
@@ -38,8 +38,8 @@
     <!-- Example: "/sys/class/drm/card0-DSI-1/night_mode"
     <string name="pathNightModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/night_mode</string>-->
 
-    <!-- Path to devices DCDMode toggle file -->
-    <string name="pathDCDModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en</string>
+    <!-- Path to devices DCDMode toggle file
+    <string name="pathDCDModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en</string> -->
 
     <!-- Whether device allow changing calls vibrationlevels
     <string name="pathCallVibStrength">/sys/class/leds/vibrator/vmax_mv_call</string>-->
@@ -70,12 +70,12 @@
     <!-- Path to devices single-tap toggle file -->
     <string name="pathSTapToggle">/proc/touchpanel/single_tap_enable</string>
 
-    <!-- Show/hide the QS tile, if device supports DC Dimming or not -->
-    <bool name="enableDCDTile">true</bool>
+    <!-- Show/hide the QS tile, if device supports DC Dimming or not
+    <bool name="enableDCDTile">true</bool> -->
 
     <!-- Show/hide the QS tile, if device supports refreshrate switching or not -->
     <bool name="enableRefreshrateTile">true</bool>
 
-    <!-- Show/hide the QS tile, if device supports switching HighBrightness mode or not -->
-    <bool name="enableHBMModeTile">true</bool>
+    <!-- Show/hide the QS tile, if device supports switching HighBrightness mode or not
+    <bool name="enableHBMModeTile">true</bool>-->
 </resources>
