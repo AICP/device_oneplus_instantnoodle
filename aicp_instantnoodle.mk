@@ -41,4 +41,4 @@ BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/releas
 
 # AICP Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="doc HD (semdoc))"
+    DEVICE_MAINTAINERS="doc HD (semdoc)"
