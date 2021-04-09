@@ -35,9 +35,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus8 \
     PRODUCT_NAME=OnePlus8 \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210305.006 7119741 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210405.005 7181113 release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys
 
 # AICP Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
