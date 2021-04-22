@@ -21,6 +21,9 @@
     <integer name="BaseRefresh">60</integer>
     <integer name="PeakRefresh">90</integer>
 
+    <!-- Whether device provides panel options -->
+    <bool name="config_device_supports_panels">false</bool>
+
     <!-- Path to devices High Brigness Mode toggle file
     <string name="pathHBMModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm</string>
     <string name="hbmOFF">"0"</string>
