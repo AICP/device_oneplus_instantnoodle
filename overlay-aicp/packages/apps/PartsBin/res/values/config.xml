@@ -18,43 +18,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <bool name="config_device_supports_switch_refreshrate">true</bool>
-    <integer name="BaseRefresh">60</integer>
-    <integer name="PeakRefresh">90</integer>
 
-    <!-- Whether device provides panel options -->
-    <bool name="config_device_supports_panels">false</bool>
+    <!-- Whether device supports vibration options -->
+    <bool name="config_device_supports_vibrations">true</bool>
 
-    <!-- Path to devices High Brigness Mode toggle file
-    <string name="pathHBMModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm</string>
-    <string name="hbmOFF">"0"</string>
-    <string name="hbmON">"5"</string> -->
-
-    <!-- Path to devices SRGBMode toggle file
-    <string name="pathSRGBModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/native_display_srgb_color_mode</string>-->
-
-    <!-- Path to devices DCI-P3 toggle file
-    <string name="pathDCIModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/native_display_p3_mode</string> -->
-
-    <!-- Path to devices WideMode toggle file
-    <string name="pathWideModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/native_display_wide_color_mode</string> -->
-
-    <!-- Example: "/sys/class/drm/card0-DSI-1/night_mode"
-    <string name="pathNightModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/night_mode</string>-->
-
-    <!-- Path to devices DCDMode toggle file
-    <string name="pathDCDModeToggle">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en</string> -->
-
-    <!-- Whether device allow changing calls vibrationlevels
-    <string name="pathCallVibStrength">/sys/class/leds/vibrator/vmax_mv_call</string>-->
-
-    <!-- Whether device allow changing notification vibrationlevels
-    <string name="pathNotifVibStrength">/sys/class/leds/vibrator/vmax_mv_strong</string>-->
-
-    <!-- Whether device allow changing vibrationlevels-->
     <string name="pathSystemVibStrength">/sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level</string>
     <integer name="vibratorMinMV">0</integer>
     <integer name="vibratorMaxMV">5</integer>
     <integer name="vibratorDefaultMV">3</integer>
+
+    <!-- Whether device supports offscreen gestures -->
+    <bool name="config_device_supports_gestures">true</bool>
 
     <!-- Device Gesture Paths -->
     <string name="pathGestureCircle">/proc/touchpanel/letter_o_enable</string>
@@ -73,12 +47,4 @@
     <!-- Path to devices single-tap toggle file -->
     <string name="pathSTapToggle">/proc/touchpanel/single_tap_enable</string>
 
-    <!-- Show/hide the QS tile, if device supports DC Dimming or not
-    <bool name="enableDCDTile">true</bool> -->
-
-    <!-- Show/hide the QS tile, if device supports refreshrate switching or not -->
-    <bool name="enableRefreshrateTile">true</bool>
-
-    <!-- Show/hide the QS tile, if device supports switching HighBrightness mode or not
-    <bool name="enableHBMModeTile">true</bool>-->
 </resources>
