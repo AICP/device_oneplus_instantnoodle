@@ -69,6 +69,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aicp/packages/apps/PartsBin
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.product.device=instantnoodle
+
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
