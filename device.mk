@@ -66,6 +66,9 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_PACKAGES += \
     PartsBin
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-aicp/packages/apps/PartsBin
+
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
