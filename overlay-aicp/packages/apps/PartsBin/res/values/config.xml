@@ -17,6 +17,9 @@
      for different hardware or product builds. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Dolby atmos package -->
+    <string name="dolby_atmos_packagename" translatable="false">com.dolby.daxservice</string>
+
     <bool name="config_device_supports_switch_refreshrate">true</bool>
 
     <!-- Whether device supports vibration options -->
