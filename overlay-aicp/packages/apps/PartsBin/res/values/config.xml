@@ -18,13 +18,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Dolby atmos package -->
-    <string name="dolby_atmos_packagename" translatable="false">com.dolby.daxservice</string>
+    <string name="dolby_atmos_packagename">com.dolby.daxservice</string>
 
     <!-- Sound tuner package -->
-    <string name="sound_tuner_packagename" translatable="false">com.dolby.daxappui</string>
+    <string name="sound_tuner_packagename">com.oneplus.sound.tuner</string>
 
     <!-- Dolby atmos classname -->
-    <string name="dolby_atmos_classname" translatable="false">com.dolby.daxappui.MainActivity</string>
+    <string name="dolby_atmos_classname">com.oneplus.sound.tuner.panoramic.DolbyPanoramicSoundActivity</string>
 
     <bool name="config_device_supports_switch_refreshrate">true</bool>
 
