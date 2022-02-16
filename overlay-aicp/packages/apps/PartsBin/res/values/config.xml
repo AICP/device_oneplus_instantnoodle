@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 AICP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- DeviceParts app resources that may need to be customized
+     for different hardware or product builds. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Dolby atmos package
+    <string name="dolby_atmos_packagename">com.dolby.daxservice</string> -->
+
+    <!-- Sound tuner package
+    <string name="sound_tuner_packagename">com.oneplus.sound.tuner</string> -->
+
+    <!-- Dolby atmos classname
+    <string name="dolby_atmos_classname">com.oneplus.sound.tuner.panoramic.DolbyPanoramicSoundActivity</string> -->
+
+    <bool name="config_device_supports_switch_refreshrate">true</bool>
+
+    <!-- Whether device supports vibration options -->
+    <bool name="config_device_supports_vibrations">true</bool>
+
+    <string name="pathSystemVibStrength">/sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level</string>
+    <integer name="vibratorMinMV">0</integer>
+    <integer name="vibratorMaxMV">5</integer>
+    <integer name="vibratorDefaultMV">3</integer>
+
+    <!-- Whether device supports offscreen gestures -->
+    <bool name="config_device_supports_gestures">true</bool>
+
+    <!-- Device Gesture Paths -->
+    <string name="pathGestureCircle">/proc/touchpanel/letter_o_enable</string>
+    <string name="pathGestureDoubleSwipe">/proc/touchpanel/double_swipe_enable</string>
+    <string name="pathGestureDownArrow">/proc/touchpanel/down_arrow_enable</string>
+    <string name="pathGestureLeftArrow">/proc/touchpanel/left_arrow_enable</string>
+    <string name="pathGestureRightArrow">/proc/touchpanel/right_arrow_enable</string>
+    <!--<string name="pathGestureDownSwipe">/proc/touchpanel/down_swipe_enable</string>-->
+    <!--<string name="pathGestureUpSwipe">/proc/touchpanel/up_swipe_enable</string>-->
+    <!--<string name="pathGestureLeftSwipe">/proc/touchpanel/left_swipe_enable</string>-->
+    <!--<string name="pathGestureRightSwipe">/proc/touchpanel/right_swipe_enable</string>-->
+    <string name="pathGestureM">/proc/touchpanel/letter_m_enable</string>
+    <string name="pathGestureS">/proc/touchpanel/letter_s_enable</string>
+    <string name="pathGestureW">/proc/touchpanel/letter_w_enable</string>
+
+    <!-- Path to devices single-tap toggle file -->
+    <string name="pathSTapToggle">/proc/touchpanel/single_tap_enable</string>
+
+    <!-- Path to devices game mode toggle file -->
+    <string name="pathGameModeToggle">/proc/touchpanel/force_game_switch_enable</string>
+</resources>
