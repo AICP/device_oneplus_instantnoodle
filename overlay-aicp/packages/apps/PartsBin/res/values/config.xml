@@ -17,14 +17,14 @@
      for different hardware or product builds. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Dolby atmos package
-    <string name="dolby_atmos_packagename">com.dolby.daxservice</string> -->
+    <!-- Dolby atmos package -->
+    <string name="dolby_atmos_packagename">com.dolby.daxappui</string>
 
     <!-- Sound tuner package
     <string name="sound_tuner_packagename">com.oneplus.sound.tuner</string> -->
 
-    <!-- Dolby atmos classname
-    <string name="dolby_atmos_classname">com.oneplus.sound.tuner.panoramic.DolbyPanoramicSoundActivity</string> -->
+    <!-- Dolby atmos classname -->
+    <string name="dolby_atmos_classname">com.dolby.daxappui.MainActivity</string>
 
     <bool name="config_device_supports_switch_refreshrate">true</bool>
 
