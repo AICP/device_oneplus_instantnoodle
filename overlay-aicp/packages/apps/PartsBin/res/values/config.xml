@@ -31,6 +31,9 @@
     <!-- Whether device supports vibration options -->
     <bool name="config_device_supports_vibrations">true</bool>
 
+    <!-- Whether device supports 5G networks -->
+    <bool name="config_device_supports_network5gswitch">true</bool>
+
     <string name="pathSystemVibStrength">/sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level</string>
     <integer name="vibratorMinMV">0</integer>
     <integer name="vibratorMaxMV">5</integer>
