@@ -118,6 +118,7 @@ vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/lib_bokehlib.so
 vendor/lib64/lib_oneplus_vivideffect.so
 vendor/lib64/lib_oneplus_watermark.so
@@ -228,7 +229,6 @@ vendor/lib64/libVDSuperPhotoAPI.so
 vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/libyuv2.so
 vendor/lib64/sensors.hal.tof.so
-vendor/lib64/vendor.oneplus.hardware.camera@1.0.so
 vendor/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
 
 # Camera firmware
