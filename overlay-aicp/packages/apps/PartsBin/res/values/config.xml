@@ -17,6 +17,9 @@
      for different hardware or product builds. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Whether device supports disabling PartsBin Alert Slider -->
+    <bool name="config_device_has_alert_slider">true</bool>
+
     <!-- Dolby atmos package -->
     <string name="dolby_atmos_packagename">com.dolby.daxappui</string>
 
