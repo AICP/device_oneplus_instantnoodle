@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 AICP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">OnePlus8-user 13 RKQ1.211119.001 Q.bc8d79_8bbd_8bbe release-keys</string>
+
+</resources>
